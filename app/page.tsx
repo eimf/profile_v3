@@ -1,13 +1,22 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+// import Image from "next/image";
+import Link from "next/link";
+// import { usePathname } from "next/navigation";
+
+import NavLinks from "@/app/ui/nav-links";
+import styles from "./page.module.css";
+
+import { FcAbout } from "react-icons/fc";
+
+// import clsx from "clsx";
 
 export default function Home() {
+  // const pathname = usePathname();
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <NavLinks />
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          <code className={styles.code}>Zeke</code>
         </p>
         <div>
           <a
@@ -15,81 +24,49 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
-            <Image
+            By Ezequiel Lopez
+            {/* <Image
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
               height={24}
               priority
-            />
+            /> */}
           </a>
         </div>
       </div>
 
       <div className={styles.center}>
-        <Image
+        <p className={styles.neon} data-text="U">
+          EZ<span className={styles.flickerslow}>E</span>QU
+          <span className={styles.flickerfast}>I</span>EL
+        </p>
+        {/* <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
           priority
-        />
+        /> */}
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          key="About"
+          href="./about"
+          // className={clsx(
+          //   "flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3",
+          //   {
+          //     "bg-sky-100 text-blue-600": pathname === "./about",
+          //   }
+          // )}
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+          <FcAbout className="w-6" />
+          <p className="hidden md:block">About</p>
+        </Link>
       </div>
     </main>
-  )
+  );
 }
