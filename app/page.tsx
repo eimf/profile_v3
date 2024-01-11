@@ -39,8 +39,8 @@ export default function Home() {
 
       <div className={styles.center}>
         <p className={styles.neon} data-text="U">
-          EZ<span className={styles.flickerslow}>E</span>QU
-          <span className={styles.flickerfast}>I</span>EL
+          Z<span className={styles.flickerslow}>E</span>K
+          <span className={styles.flickerfast}>E</span>
         </p>
         {/* <Image
           className={styles.logo}

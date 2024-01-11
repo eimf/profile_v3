@@ -5,13 +5,14 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-size: 1.1rem;
 }
 
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 0.85rem;
+  font-size: 1rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -212,7 +213,7 @@
   transform: translate(-50%, -50%);
   font-weight: 400;
   letter-spacing: 8px;
-  text-shadow: 1px 0px 4px #ffd5ff, 2px 0px 4px #ffd5ff, 3px 0px 4px #ffd5ff, 2px 0px 3px #d42cca, 2px 3px 15px #d42cca, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42cca, 40px 0vw 200px #d42cca;
+  text-shadow: 1px 0px 4px #477a85, 2px 0px 4px #4c7a85, 3px 0px 4px #4f7a85, 2px 0px 3px #2caad4, 2px 3px 15px #3caad4, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #4caad4, 40px 0vw 200px #5caad4;
 }
 .flickerslow {
   animation: flicker 3s linear infinite;

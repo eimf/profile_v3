@@ -1,0 +1,23 @@
+.aboutpage {
+   margin: 3rem;
+}
+
+.abouttitle {
+   text-align: center;
+}
+
+.topaboutcontainer {
+   padding: 1rem;
+   text-align: left;
+   background-color: black; /* Choose your desired container background color */
+   border-radius: 10px; /* Add rounded corners for a modern look */
+   box-shadow: 0 0 10px rgba(208, 204, 204, 0.2); /* Add a subtle shadow effect */
+}
+
+.aboutontainer {
+   margin-top: 2rem;
+   text-align: left;
+   background-color: black; /* Choose your desired container background color */
+   border-radius: 10px; /* Add rounded corners for a modern look */
+   box-shadow: 0 0 10px rgba(208, 204, 204, 0.2); /* Add a subtle shadow effect */
+ }
