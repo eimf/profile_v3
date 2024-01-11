@@ -29,7 +29,7 @@ export default function About() {
             do not hesitate to address it.
           </div>
           <div className={styles.aboutontainer}>
-            Despite recognizing the world's inherent unfairness, I maintain a
+            Despite recognizing the world&#39;s inherent unfairness, I maintain a
             profound sense of gratitude for my circumstances.
           </div>
           <div className={styles.aboutontainer}>
