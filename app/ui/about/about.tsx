@@ -13,10 +13,9 @@ export default function About() {
             mentally challenging activities.
           </div>
           <div className={styles.aboutontainer}>
-            I do possess the
-            ability to collaborate effectively in a team. However, my true
-            passion lies in immersing myself in cerebral puzzles and strategic
-            thinking.
+            I do possess the ability to collaborate effectively in a team.
+            However, my true passion lies in immersing myself in cerebral
+            puzzles and strategic thinking.
           </div>
           <div className={styles.aboutontainer}>
             During work, I will often find me wearing headphones and pursuing my
@@ -24,10 +23,10 @@ export default function About() {
             occasionally immerse myself in games.
           </div>
           <div className={styles.aboutontainer}>
-            Tend to be naturally reserved, preferring to listen rather than initiate
-            conversation, only speaking when necessary or asked. I exhibit
-            patience, but when I perceive an injustice toward myself, I do not
-            hesitate to address it.
+            Tend to be naturally reserved, preferring to listen rather than
+            initiate conversation, only speaking when necessary or asked. I
+            exhibit patience, but when I perceive an injustice toward myself, I
+            do not hesitate to address it.
           </div>
           <div className={styles.aboutontainer}>
             Despite recognizing the world's inherent unfairness, I maintain a
